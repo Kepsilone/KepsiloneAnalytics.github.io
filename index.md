@@ -1,3 +1,29 @@
+<link rel="stylesheet" href="assets/css/style.css">
+
+<div style="display: flex; align-items: flex-start;">
+
+<!-- Colonne gauche : photo + sidebar -->
+<div style="width: 250px; margin-right: 40px;">
+
+<img src="assets/img/photo_profil.png" alt="Photo de profil" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover; border: 3px solid #0D47A1; display: block; margin: 0 auto 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+<div style="background-color: #fff; border: 1px solid #e0e0e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+<h3 style="font-family: 'Poppins', sans-serif; font-size: 16px; margin-bottom: 10px; color: #0D47A1;">📂 Projets à venir</h3>
+
+- [Data Pipeline Automatisé](#)  
+- [API Data Cleanser](#)  
+- [Workflow IA avec n8n](#)  
+- [Pipeline Big Data](#)  
+- [Monitoring MLOps Light](#)
+
+</div>
+
+</div>
+
+<!-- Colonne droite : contenu principal -->
+<div style="flex: 1;">
+
+
 # Bienvenue sur KepsiloneAnalytics
 
 ## 👋 Qui suis-je ?
