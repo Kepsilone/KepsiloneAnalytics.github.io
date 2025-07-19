@@ -2,9 +2,7 @@
 
 ## 👋 Qui suis-je ?
 
-Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieur Procédés Fabrication Additive spécialisé en simulation et analyse des données. Actuellement en poste au **Cetim** (Centre technique des industries mécaniques) à Paris, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé LPBF.
-
-> *"Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé. Je m'occupe aussi de structurer les données issues des essais et d'automatiser certaines analyses sous Python, dans le but d'améliorer la compréhension et l'optimisation des paramètres de fabrication."*
+Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé Fusion Laser sur Lit de Poudre. Je m'occupe aussi de structurer les données issues des essais et d'automatiser certaines analyses sous Python, dans le but d'améliorer la compréhension et l'optimisation des paramètres de fabrication."*
 
 ## 🎯 Mon Parcours
 
