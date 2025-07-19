@@ -6,31 +6,13 @@ Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieu
 
 > *"Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé. Je m'occupe aussi de structurer les données issues des essais et d'automatiser certaines analyses sous Python, dans le but d'améliorer la compréhension et l'optimisation des paramètres de fabrication."*
 
-## 🎯 Mon Parcours Professionnel
+## 🎯 Mon Parcours
 
-### Cetim - Ingénieur en fabrication additive métallique
-*Avril 2023 à aujourd'hui - Paris*
+**Ingénieur spécialisé** en fabrication additive métallique et simulation numérique  
+**Expertise** : Modélisation thermomécanique, automatisation Python, analyse de données industrielles  
+**Formation** : Double Master + Certificat Data Mining en cours
 
-- **Simulation numérique** : Modélisation thermomécanique du procédé LPBF sous Simufact avec calculs couplés
-- **Corrélation données** : Rapprochement entre résultats de simulation et données expérimentales 
-- **Automatisation Python** : Scripts pour l'analyse des cycles thermiques et courbes mécaniques
-- **Data structuring** : Traitement des données d'essais (températures, logs, courbes)
 
-### CTIF - Ingénieur Mécanique et Matériaux
-*Avril 2018 à avril 2023 - Sèvres*
-
-- **Pilotage de projets** en fabrication additive pour la fonderie
-- **Analyses statistiques** des poudres métalliques (ANOVA)
-- **Simulation multi-échelle** du procédé avec couplage macro/méso
-- **Matrices d'aide** au choix matériau/procédé selon critères fonctionnels
-
-## 🎓 Formation & Certifications
-
-**En cours** : Certificat **Ingénierie de la Fouille de Données Massives** - CNAM Paris (2024)
-
-**Diplômé** :
-- Master 2 Modélisation et Simulation - Université d'Évry (2018) - *Mention Très Bien*
-- Master 2 Mécanique et Matériaux - INSA Rouen (2015) - *Mention Très Bien*
 
 ## 🚀 Pourquoi KepsiloneAnalytics ?
 
@@ -73,12 +55,12 @@ L'industrie 4.0 nous offre des opportunités extraordinaires pour :
 **Langues** : Français (natif), Anglais (professionnel B2), Arabe (courant)  
 **Centres d'intérêt** : Sport, lecture
 
-## 🤝 Connectons-nous !
+## 🤝 Contact
 
 Passionné par l'intersection entre IA, automatisation et ingénierie ? Envie d'échanger sur les défis de la fabrication additive ou les applications de l'IA en industrie ?
 
 **Retrouvez-moi sur :** [LinkedIn - Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)  
-**Contact :** saberjedid@gmail.com
+
 
 ---
 
