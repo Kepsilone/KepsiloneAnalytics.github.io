@@ -23,12 +23,11 @@
 <!-- Colonne droite : contenu principal -->
 <div style="flex: 1;">
 
-
 # Bienvenue sur KepsiloneAnalytics
 
 ## 👋 Qui suis-je ?
 
-Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé Fusion Laser sur Lit de Poudre. Je m'occupe aussi de structurer les données issues des essais et d'automatiser certaines analyses sous Python, dans le but d'améliorer la compréhension et l'optimisation des paramètres de fabrication."*
+Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé Fusion Laser sur Lit de Poudre. Je m'occupe aussi de structurer les données issues des essais et d'automatiser certaines analyses sous Python, dans le but d'améliorer la compréhension et l'optimisation des paramètres de fabrication.
 
 ## 🎯 Mon Parcours
 
@@ -36,13 +35,11 @@ Je suis **[Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)**, Ingénieu
 **Expertise** : Modélisation thermomécanique, automatisation Python, analyse de données industrielles  
 **Formation** : Double Master + Certificat Data Mining en cours
 
-
-
 ## 🚀 Pourquoi KepsiloneAnalytics ?
 
 Ma passion pour l'**intelligence artificielle** et l'**automatisation** a naturellement émergé de mon quotidien professionnel. Entre les modélisations thermométriques, l'analyse de données d'essais et l'automatisation de traitements sous Python, j'ai découvert le potentiel immense de l'IA appliquée à l'ingénierie.
 
-**KepsiloneAnalytics** est né de cette conviction : 
+**KepsiloneAnalytics** est né de cette conviction :
 
 > *L'IA et l'automatisation peuvent révolutionner notre approche de l'analyse technique et de l'optimisation des procédés industriels.*
 
@@ -85,7 +82,6 @@ Passionné par l'intersection entre IA, automatisation et ingénierie ? Envie d'
 
 **Retrouvez-moi sur :** [LinkedIn - Sabeur Jedid](https://www.linkedin.com/in/jedid-sabeur/)  
 
-
 ---
 
 **Bienvenue dans mon univers où l'ingénierie rencontre l'intelligence artificielle !**
@@ -93,3 +89,6 @@ Passionné par l'intersection entre IA, automatisation et ingénierie ? Envie d'
 ---
 
 *Site en construction - Projets et analyses à venir*
+
+</div>
+</div>
