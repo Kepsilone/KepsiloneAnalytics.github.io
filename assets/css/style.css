@@ -10,6 +10,29 @@ body {
     line-height: 1.8;
 }
 
+/* Conteneur flex pour l'en-tête avec image à gauche */
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Image profil */
+.header-container img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #0D47A1;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Texte à droite de l'image */
+.header-container .intro-text {
+    flex: 1;
+}
+
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     color: #0D47A1;
@@ -22,17 +45,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-img {
-    display: block;
-    margin: 0 auto 20px auto; /* Centre horizontalement */
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-    border: 3px solid #0D47A1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Effet léger pro */
 }
 
 button, .btn {
@@ -73,4 +85,15 @@ table th {
     background-color: #f1f1f1;
     color: #0D47A1;
     font-weight: 600;
+}
+
+/* Responsive : image au-dessus sur petit écran */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-container img {
+        margin: 0 0 20px 0;
+    }
 }
