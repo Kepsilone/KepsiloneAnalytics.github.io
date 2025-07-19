@@ -57,6 +57,7 @@ body {
   border: 3px solid var(--primary-color);
   box-shadow: var(--shadow-md);
   object-fit: cover;
+  object-position: center center; /* Centrage horizontal et vertical */
   display: block;
 }
 
