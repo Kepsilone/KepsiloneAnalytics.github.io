@@ -57,7 +57,7 @@ body {
   border: 3px solid var(--primary-color);
   box-shadow: var(--shadow-md);
   object-fit: cover;
-  object-position: center 40%; /* Descend l'image dans le cercle */
+  object-position: center 20%; /* Descend l'image dans le cercle */
   display: block;
 }
 
