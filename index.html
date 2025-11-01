@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KepsiloneAnalytics</title>
+    <title>KepsiloneAnalytics - Portfolio ML & Data Science</title>
+    <meta name="description" content="Ingénieur en fabrication additive et data science. Portfolio de projets Machine Learning appliqués à l'industrie.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -12,12 +13,26 @@
         <div class="layout">
             <!-- Sidebar gauche -->
             <aside class="sidebar">
-                <img src="assets/img/io.png" alt="Photo de profil" class="profile-photo">
-                <div class="projects-preview">
-                    <h3>📂 Projets à venir</h3>
-                    <p style="color: #6b7280; font-style: italic; text-align: center; padding: 1rem;">
-                        Projets en cours de développement
-                    </p>
+                <img src="assets/img/io.png" alt="Photo de profil KepsiloneAnalytics" class="profile-photo">
+                
+                <nav class="sidebar-nav">
+                    <h3>🔗 Navigation</h3>
+                    <ul>
+                        <li><a href="#intro">À propos</a></li>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#projets">Projets ML</a></li>
+                        <li><a href="#stack">Stack Technique</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="sidebar-stats">
+                    <h3>📊 Stats</h3>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projets ML</span>
+                    </div>
+                    
                 </div>
             </aside>
 
@@ -25,14 +40,15 @@
             <main class="main-content">
                 <header class="page-header">
                     <h1>Bienvenue sur KepsiloneAnalytics</h1>
+                    <p class="subtitle">Ingénierie × Data Science × Fabrication Additive</p>
                 </header>
 
-                <section class="intro-section">
+                <section id="intro" class="intro-section">
                     <h2>👋 Qui suis-je ?</h2>
-                    <p>Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé Fusion Laser sur Lit de Poudre. J’automatise également l’analyse de données industrielles avec Python, dans le but d’optimiser les paramètres de fabrication.</p>
+                    <p>Ingénieur en fabrication additive et simulation numérique, je travaille sur la modélisation thermomécanique pour mieux anticiper les effets du procédé Fusion Laser sur Lit de Poudre. J'automatise également l'analyse de données industrielles avec Python, dans le but d'optimiser les paramètres de fabrication.</p>
                 </section>
 
-                <section class="parcours-section">
+                <section id="parcours" class="parcours-section">
                     <h2>🎯 Mon Parcours</h2>
                     <p><strong>Spécialisation</strong> : fabrication additive métallique et simulation numérique</p>
                     <p><strong>Expertise</strong> : modélisation thermomécanique, automatisation Python, analyse de données</p>
@@ -44,11 +60,151 @@
                     <p><strong>KepsiloneAnalytics</strong> est un espace personnel où je partage mes projets liés à la <strong>data</strong>, à l'<strong>IA appliquée</strong> et à l'<strong>automatisation</strong>.</p>
                     <p>Que ce soit dans l'industrie, le web, la finance ou d'autres domaines, je m'intéresse à la manière dont les données peuvent améliorer la prise de décision, simplifier les processus ou prédire des comportements complexes.</p>
                     <blockquote>
-                        J’expérimente ces technologies dans des contextes variés pour apprendre, partager et créer des solutions utiles.
+                        J'expérimente ces technologies dans des contextes variés pour apprendre, partager et créer des solutions utiles.
                     </blockquote>
                 </section>
 
-                <section class="expertise-section">
+                <!-- NOUVELLE SECTION PROJETS ML -->
+                <!-- SECTION PROJETS DATA/ML -->
+                <section id="projets" class="projects-section">
+                    <h2>🚀 Projets Data Science & ML</h2>
+                    <p class="section-intro">Applications du machine learning à différents domaines</p>
+                    
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">📈</span>
+                                <h3>Prédiction Prix Crypto</h3>
+                            </div>
+                            <p class="project-description">Modèle de prédiction des tendances de cryptomonnaies avec analyse de sentiment Twitter et données historiques</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LSTM</span>
+                                <span class="tag">APIs</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">📊 MAPE: 8.3%</span>
+                                <span class="metric">⚡ Real-time</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/crypto-prediction.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">🛒</span>
+                                <h3>Analyse Sentiment E-commerce</h3>
+                            </div>
+                            <p class="project-description">Classification automatique d'avis clients et extraction d'insights pour optimiser la stratégie produit</p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">BERT</span>
+                                <span class="tag">Streamlit</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">✅ 92% F1-score</span>
+                                <span class="metric">🔍 Topic modeling</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/sentiment-analysis.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">🎯</span>
+                                <h3>Recommandation Personnalisée</h3>
+                            </div>
+                            <p class="project-description">Système de recommandation pour plateforme de contenu utilisant collaborative filtering et deep learning</p>
+                            <div class="project-tags">
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Redis</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">🚀 +35% engagement</span>
+                                <span class="metric">⚡ <100ms latence</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/recommendation.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">📊</span>
+                                <h3>Dashboard Analytics Web</h3>
+                            </div>
+                            <p class="project-description">Dashboard interactif de KPIs avec prédictions et alertes automatiques pour suivi de performance</p>
+                            <div class="project-tags">
+                                <span class="tag">Plotly</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">📈 Real-time</span>
+                                <span class="metric">🎯 Alertes auto</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/dashboard.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">🤖</span>
+                                <h3>Chatbot Intelligent</h3>
+                            </div>
+                            <p class="project-description">Assistant conversationnel avec RAG pour support client automatisé et recherche documentaire</p>
+                            <div class="project-tags">
+                                <span class="tag">OpenAI</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Pinecone</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">🎯 85% auto-résolu</span>
+                                <span class="metric">⚡ 2s réponse</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/chatbot.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-header">
+                                <span class="project-icon">🔍</span>
+                                <h3>Détection Anomalies IoT</h3>
+                            </div>
+                            <p class="project-description">Système de détection d'anomalies en temps réel sur flux de données capteurs industriels</p>
+                            <div class="project-tags">
+                                <span class="tag">Isolation Forest</span>
+                                <span class="tag">Kafka</span>
+                                <span class="tag">Docker</span>
+                            </div>
+                            <div class="project-metrics">
+                                <span class="metric">✅ 96% précision</span>
+                                <span class="metric">⚡ Streaming</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="projects/anomaly-detection.html" class="btn-primary">Voir le projet</a>
+                                <a href="https://github.com/Kepsilone/ml-portfolio" target="_blank" class="btn-secondary">GitHub</a>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <div class="projects-cta">
+                        <p>🔗 Tous mes projets sont disponibles sur <a href="https://github.com/Kepsilone" target="_blank">GitHub</a></p>
+                    </div>
+                </section>
+
+                <section id="stack" class="expertise-section">
                     <h2>🧠 Stack Technique (en développement)</h2>
                     <div class="expertise-grid">
                         <div class="expertise-card">
@@ -84,10 +240,10 @@
                 <section class="deliverables-section">
                     <h2>🎯 Ce que vous trouverez ici</h2>
                     <ul class="vision-list">
-                        <li>Projets d’apprentissage avec code</li>
+                        <li>Projets d'apprentissage avec code</li>
                         <li>Pipelines de traitement de données</li>
                         <li>Expérimentations IA avec résultats</li>
-                        <li>Tutoriels d’outils data</li>
+                        <li>Tutoriels d'outils data</li>
                         <li>Cas concrets (industrie, finance, web)</li>
                     </ul>
                     <p><strong>Objectif</strong> : documenter un apprentissage progressif orienté résultats.</p>
@@ -99,9 +255,9 @@
                         <li>Automatiser les analyses complexes</li>
                         <li>Prédire les comportements de procédés</li>
                         <li>Optimiser les paramètres en temps réel</li>
-                        <li>Démocratiser l’expertise via l’IA</li>
+                        <li>Démocratiser l'expertise via l'IA</li>
                     </ul>
-                    <p><strong>KepsiloneAnalytics</strong> est un terrain d’expérimentation des approches IA + data appliquées.</p>
+                    <p><strong>KepsiloneAnalytics</strong> est un terrain d'expérimentation des approches IA + data appliquées.</p>
                 </section>
 
                 <section class="kepsilone-story">
@@ -111,17 +267,20 @@
                         <li><strong>k</strong> = énergie turbulente (chaos)</li>
                         <li><strong>ε</strong> = dissipation (organisation)</li>
                     </ul>
-                    <p>Un jour, j’ai vu mes données comme ce fluide : brutales, désordonnées… puis transformées par l’IA. <strong>Kepsilone</strong> est né de ce parallèle entre ingénierie et data science.</p>
+                    <p>Un jour, j'ai vu mes données comme ce fluide : brutales, désordonnées… puis transformées par l'IA. <strong>Kepsilone</strong> est né de ce parallèle entre ingénierie et data science.</p>
                 </section>
 
-                <section class="contact-section">
+                <section id="contact" class="contact-section">
                     <h2>🤝 Contact</h2>
-                    <p>Un retour ? Une question ? Contact disponible prochainement.</p>
+                    <p>Un retour ? Une question ?</p>
+                    <p>📧 Email : <strong>contact@kepsiloneanalytics.com</strong></p>
+                    <p>💼 LinkedIn : <a href="https://linkedin.com" target="_blank">Profil LinkedIn</a></p>
+                    <p>💻 GitHub : <a href="https://github.com/Kepsilone" target="_blank">@Kepsilone</a></p>
                 </section>
 
                 <footer class="footer">
-                    <p><strong>Bienvenue dans un espace où l’ingénierie rencontre la data.</strong></p>
-                    <p><em>Site en construction – contenu à venir.</em></p>
+                    <p><strong>Bienvenue dans un espace où l'ingénierie rencontre la data.</strong></p>
+                    <p><em>© 2025 KepsiloneAnalytics - Site en construction</em></p>
                 </footer>
             </main>
         </div>
